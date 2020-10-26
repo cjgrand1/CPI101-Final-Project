@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+.header-container {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	padding: 20px 32px;
+	width: 100%;
+	flex-direction: row;
+	font-family: sans-serif;
+}
+
+.header-container > div {
+	padding: 10px;
+	font-size: 20px;
+}
+
+.header-shadow {
+	filter: drop-shadow(0 0 0.65rem gray);
+}
+
+.website-other {
+	float: right;
+}
