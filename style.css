@@ -67,3 +67,34 @@ main {
 	text-align: center;
 	margin-top: 10px;
 }
+
+.product-header {
+	margin-top: 83px;
+	width: 100%;
+	padding: 5px;
+	content: "";
+	clear: both;
+	display: table;
+	background: white;
+	overflow: auto;
+}
+
+.product-header-img {
+	float: right;
+	padding: 50px;
+}
+
+.product-header-details {
+	margin-left: 10px;
+}
+
+.box2 {
+	float: left;
+	display: inline-block;
+	background: lightgray;
+	width: 40px;
+	height: 30px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
