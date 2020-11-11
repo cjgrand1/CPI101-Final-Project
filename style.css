@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: #fafafa;
 }
 
 main {
@@ -55,11 +56,11 @@ a:active {
 }
 
 .drop-shadow {
-	filter: drop-shadow(0 0 0.8rem gray);
+	filter: drop-shadow(0 0 0.8rem darkgray);
 }
 
 .categories {
-	background-color: white;
+	background-color: #fafafa;
 	box-sizing: border-box;
 	padding: 10px;
 	margin: auto;
