@@ -42,6 +42,7 @@ a:active {
 	width: 100%;
 	flex-direction: row;
 	font-family: sans-serif;
+	z-index: 999;
 }
 
 .header-container > div {
@@ -51,6 +52,10 @@ a:active {
 
 .header-shadow {
 	filter: drop-shadow(0 0 0.65rem gray);
+}
+
+.drop-shadow {
+	filter: drop-shadow(0 0 0.8rem gray);
 }
 
 .categories {
@@ -158,9 +163,12 @@ a:active {
 }
 
 table, th, td {
-	margin-left: 20px;
 	margin-bottom: 100px;
 	padding: 20px;
 	border: 3px solid black;
 	border-collapse: collapse;
+}
+
+table {
+	width: 100%;
 }
