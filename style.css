@@ -115,6 +115,16 @@ a:active {
 	padding: 50px;
 }
 
+@media screen and (max-width: 800px) {
+	.product-header-img {
+		width: 100%;
+		float: center;
+		padding: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 .product-header-details {
 	margin-left: 10px;
 }
