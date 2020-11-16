@@ -6,7 +6,7 @@ body
 
 .parallax, .parallax1
 {
-	background-image:url('C:/Users/Ethan/Desktop/Website/background.jpg');
+	background-image:url('background.jpg.jpg');
 	height: max-content;
 	background-attachment: fixed;
 	background-position: center;
@@ -210,7 +210,7 @@ a
 
 .parallax1
 {
-	background-image:url('C:/Users/Ethan/Desktop/Website/parallax.jpg');
+	background-image:url('parallax.jpg');
 }
 
 .footer
