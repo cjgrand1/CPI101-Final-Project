@@ -43,7 +43,7 @@ a:active {
 	width: 100%;
 	flex-direction: row;
 	font-family: sans-serif;
-	z-index: 999;
+	z-index: 1;
 }
 
 .header-container > div {
