@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Products</title>
+	<link rel="stylesheet" href="newproducts.css">
+	<script src="https://kit.fontawesome.com/708935dade.js" crossorigin="anonymous"></script>
+
+	<script>
+		function stickyMenu()
+		{
+			var sticky=document.getElementById('sticky');
+
+			if (window.pageYOffset > 200)
+			{
+				sticky.classList.add('sticky');
+			}
+			else
+			{
+				sticky.classList.remove('sticky');
+			}
+		}
+
+		window.onscroll = function()
+		{
+			stickyMenu();
+		}
+	</script>
+
+</head>
+<body>
+	<div class="parallax">
+		<div class="page-title"> New Products </div>
+	</div>
+
+	<div class="menu" id="sticky">
+		<ul class = "menu-ul">
+			<a href="#" class="a-menu"><li>Home</li></a>
+			<a href="#television" class="a-menu"><li>Television</li></a>
+			<a href="#smartphones" class="a-menu"><li>Smartphones</li></a>
+			<a href="#laptops" class="a-menu"><li>Laptops</li></a>
+			<a href="#tablets" class="a-menu"><li>Tablets</li></a>
+			<a href="#" class="a-menu"><li>Cart</li></a>
+		</ul>
+
+		<div class="search-box">
+			<form>
+				<input type="text" placeholder="Search..." name="search" class="search-input"/>
+				<button type="submit"><i class="fa fa-search"></i> </button>
+			</form>
+		</div>
+	</div>
+
+	<!---Home Page Begins-->
+		<div class="container">
+			<a href="#television">
+				<div class="categories">
+					<img src="C:/Users/Ethan/Desktop/Website/Television/temptv.png" class="item-image"/>
+					<div class="image-title">Television</div>
+				</div>
+			</a>
+
+			<a href="#smartphones">
+				<div class="categories">
+					<img src="C:/Users/Ethan/Desktop/Website/Smartphones/tempsmartphone.png" class="item-image"/>
+					<div class="image-title">Smartphones</div>
+				</div>
+			</a>
+
+			<a href="#laptops">
+				<div class="categories">
+					<img src="C:/Users/Ethan/Desktop/Website/Laptops/templaptop.jpg" class="item-image"/>
+					<div class="image-title">Laptops</div>
+				</div>
+			</a>
+
+			<a href="#tablets">
+				<div class="categories">
+					<img src="C:/Users/Ethan/Desktop/Website/Tablets/temptablet.png" class="item-image"/>
+					<div class="image-title">Tablets</div>
+				</div>
+			</a>
+
+		</div>
+	<!---Home Page Ends-->
+
+	<!---Television Page Begins-->
+		<div class="deals-container" id="television">
+			<div class ="parallax">
+				<div class = "title">TELEVISION</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Television/temptv.png" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> TV </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Television/temptv.png" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> TV </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Television/temptv.png" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> TV </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+		</div>
+	<!---Television Page Ends-->
+
+	<!---Smartphones Page Begins-->
+		<div class="deals-container" id="smartphones">
+			<div class ="parallax">
+				<div class = "title">SMARTPHONES</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Smartphones/tempsmartphone.png" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> Smartphone </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Smartphones/tempsmartphone.png" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> Smartphone </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Smartphones/tempsmartphone.png" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> Smartphone </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+		</div>
+	<!---Smartphones Page Ends-->
+
+	<!---Laptops Page Begins-->
+		<div class="deals-container" id="laptops">
+			<div class ="parallax">
+				<div class = "title">LAPTOPS</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Laptops/templaptop.jpg" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> Laptop </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Laptops/templaptop.jpg" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> Laptop </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Laptops/templaptop.jpg" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> Laptop </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+		</div>
+	<!---Laptop Page Ends-->
+
+	<!---Tablets Page Begins-->
+		<div class="deals-container" id="tablets">
+			<div class ="parallax">
+				<div class = "title">TABLETS</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Tablets/temptablet.png" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> Laptop </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Tablets/temptablet.png" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> Laptop </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+
+			<div class="items">
+				<div class="images">
+					<img src="C:/Users/Ethan/Desktop/Website/Tablets/temptablet.png" class="item-image-size" />
+				</div>
+
+				<div class="description">
+					<b> Laptop </b> <br/>
+					<div class="item-select"> 
+						Price: $999.99
+					</div>
+
+					<label>Qty:</label>
+					<select class="item-select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select> <br/>
+					<button class="buynow-button">Buy Now</button>
+				</div>
+			</div>
+		</div>
+	<!---Tablet Page Ends-->
+
+	<!--Footer Starts Here -->
+	<div class="parallax1">
+		<div class="footer">
+			<div class="quick-links">
+				<div>?</div>
+				<ul>
+					<li><a href="" class="a-links">??</a></li>
+					<li><a href="" class="a-links">??</a></li>
+					<li><a href="" class="a-links">??</a></li>
+				</ul>
+			</div>
+
+			<div class="quick-links">
+				<div>Quick Links</div>
+				<ul>
+					<li><a href="" class="a-links">Contact Us</a></li>
+					<li><a href="" class="a-links">FAQ</a></li>
+					<li><a href="" class="a-links">Help</a></li>
+				</ul>
+			</div>
+
+			<div class="quick-links">
+				<div>?</div>
+				<ul>
+					<li><a href="" class="a-links">??</a></li>
+					<li><a href="" class="a-links">??</a></li>
+					<li><a href="" class="a-links">??</a></li>
+				</ul>
+			</div>
+
+			<div class="copyrights">
+				<i class="far fa-copyright fa-lx"></i> 2020 by Craig Grande and Ethan Park
+			</div>
+		</div>
+	</div>
+	<!--Footer Ends Here -->
+</body>
+</html>
