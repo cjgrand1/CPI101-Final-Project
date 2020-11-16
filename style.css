@@ -88,6 +88,12 @@ a:active {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
+	transition-duration: 0.2s;
+}
+
+.categoryImg:hover {
+	transform: translateY(-10px);
+	transition-timing-function: ease-in-out;
 }
 
 .categoryText {
