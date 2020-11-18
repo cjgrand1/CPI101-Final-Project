@@ -9,9 +9,14 @@
 
   <body style="margin: 0; overflow: hidden;">
     <a-scene embedded arjs vr-mode-ui="enabled: false">
-      <!-- Using the Hiro marker -->
+      <!-- Using the ASU marker to asccess the laptop 3D model -->
+      <a-marker type="pattern" url="Markers/pattern-ASULogoOne.patt">
+        <a-entity gltf-model="gltf/laptops/laptop.gltf" scale="15 15 15" position="0 0 0"></a-entity>
+      </a-marker>
+      
+      <!-- Using the Hiro marker to access the phone 3D model -->
       <a-marker preset="hiro">
-        <a-entity gltf-model="gltf/phones/PhoneAttempt3.gltf" scale="10 10 10" position="0 0 0" rotation="0 -90 90" animation="property: rotation; from: 0 -90 90; to: 360 -90 90; loop: true; delay: 5000; dur: 10000"></a-entity>
+        <a-entity gltf-model="gltf/phones/PhoneAttempt3.gltf" scale="20 20 20" position="0 0 0" rotation="0 -90 90" animation="property: rotation; from: 0 -90 90; to: 360 -90 90; loop: true; delay: 5000; dur: 10000"></a-entity>
       </a-marker>
 
       <a-entity camera></a-entity>
